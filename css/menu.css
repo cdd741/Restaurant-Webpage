@@ -1,0 +1,171 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3,
+.navBar,
+footer {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navBar {
+  background-color: #fff0ed;
+  padding: 27px 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar__title {
+  margin-left: 2vw;
+  font-weight: 300;
+  color: #393939;
+  display: flex;
+}
+
+.navBar__logo {
+  min-width: 50px;
+  max-width: 120px;
+}
+
+.navBar__name {
+  font-size: 50px;
+  margin: 0;
+  margin-left: 0.2rem;
+  line-height: 50px;
+  color: #393939;
+}
+
+.navBar__links {
+  margin-left: 50px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-self: flex-end;
+}
+
+.navBar__link {
+  font-size: 21px;
+  font-weight: 400;
+  list-style-type: none;
+  margin-right: 2rem;
+  color: #393939;
+}
+
+.navBar__link--shop-now {
+  color: #5bacc3;
+}
+
+.menu-title {
+  margin-top: 0;
+  background-image: url("../assets/coffee-circle.jpg");
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 575px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__outline {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  background-color: #393939;
+}
+
+.menu-title__text {
+  text-align: center;
+  min-width: 280px;
+  max-width: 300px;
+  padding: 50px 0;
+  font-weight: 300;
+  color: #f7f7f7;
+  margin: auto;
+  border: 5px solid #5bacc3;
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+}
+
+#menu-nav {
+  font-size: 21px;
+  text-align: center;
+  list-style-type: none;
+  background-color: #393939;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.menu-nav__item {
+  font-weight: 400;
+  color: #f7f7f7;
+  text-decoration: none;
+  border-left: 4px solid #5bacc3;
+  padding: 0 1.4rem;
+}
+
+.menu__category--hot-drinks,
+.menu__category--pastries {
+  background-color: #fff0ed;
+}
+
+.menu__category--cold-drinks {
+  background-color: #f7f7f7;
+}
+
+.menu__category {
+  padding-bottom: 40px;
+}
+
+.menu__category-name {
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.menu__item-name {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.menu__description {
+  font-style: italic;
+  text-align: center;
+  max-width: 490px;
+  margin: auto;
+}
+
+.menu__price {
+  font-weight: 400;
+  text-align: center;
+  color: #5bacc3;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+}/*# sourceMappingURL=menu.css.map */
